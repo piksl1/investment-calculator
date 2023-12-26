@@ -1,5 +1,11 @@
+import logo from "../../public/investment-calculator-logo.png";
 const Header = () => {
-  return <h1 id="header">Investment Calculator</h1>;
+  return (
+    <header id="header">
+      <img src={logo} alt="logo" />
+      <h1>Investment Calculator</h1>
+    </header>
+  );
 };
 
 export default Header;
